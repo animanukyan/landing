@@ -13,15 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 //Route::get('/', function () {
 //    return view('app');
 //});
 Route::get('/', function () {
     return view('landing');
 });
-Route::get('/inner', function () {
-    return view('inner');
-})->name('inner.page');
+//Route::get('/inner', function () {
+//    return view('inner');
+//})->name('inner.page');

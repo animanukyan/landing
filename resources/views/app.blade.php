@@ -12,8 +12,8 @@
         <div class="bg-gradient-to-r h-full from-gray-200 to-gray-100 dark:from-gray-900 dark:to-gray-700" x-data="{ darkMode: false }" :class="{ 'dark': darkMode }">
             <header class="fixed w-full top-0 left-0 px-4 z-10 bg-gradient-to-r from-gray-200 to-gray-100 dark:from-gray-900 dark:to-gray-700">
                 <div class="flex items-center justify-between py-4">
-                    <a href="#" class="text-lg text-gray-900 dark:text-gray-200 pl-4">
-                        Luminax
+                    <a href="#" class="text-2xl font-bold text-gray-900 dark:text-gray-200 pl-4">
+                        Kognize
                     </a>
                     <div class="relative flex items-center">
                         <a href="#" class="rounded-full hover:shadow-md border border-transparent hover:border-gray-200 dark:border-gray-700 p-3 flex items-center justify-center">
