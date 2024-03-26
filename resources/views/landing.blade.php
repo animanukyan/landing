@@ -1,7 +1,22 @@
 @extends('app') @section('content')
     <section class="relative isolate overflow-hidden">
-        <div class="mx-auto max-w-7xl px-6 pb-20 lg:pt-10 lg:flex lg:px-8 xl:pt-20">
-            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
+        <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8 relative">
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="absolute h-8 w-8 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-3xl animate-pulse -top-8 sm:top-12 lg:top-1/2 left-10"></div>
+                <div class="absolute h-8 w-8 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-2xl animate-pulse -top-8 sm:top-12 lg:top-1/2 left-10"></div>
+                <div class="absolute h-8 w-8 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-xl animate-pulse -top-8 sm:top-12 lg:top-1/2 left-10"></div>
+            </div>
+            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8 relative">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="absolute h-10 w-10 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-2xl animate-pulse right-0 top-12 lg:top-16"></div>
+                    <div class="absolute h-10 w-10 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-xl animate-pulse right-0 top-12 lg:top-16"></div>
+                    <div class="absolute h-10 w-10 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-lg animate-pulse right-0 top-12 lg:top-16"></div>
+                </div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="absolute h-10 w-10 lg:h-24 lg:w-24 bg-emerald-500 rounded-full filter blur-3xl animate-pulse right-44 lg:right-36 -bottom-8 lg:bottom-24"></div>
+                    <div class="absolute h-10 w-10 lg:h-24 lg:w-24 bg-emerald-500 rounded-full filter blur-2xl animate-pulse right-44 lg:right-36 -bottom-8 lg:bottom-24"></div>
+                    <div class="absolute h-10 w-10 lg:h-24 lg:w-24 bg-emerald-500 rounded-full filter blur-xl animate-pulse right-44 lg:right-36 -bottom-8 lg:bottom-24"></div>
+                </div>
                 <div class="mt-24 sm:mt-32 lg:mt-16">
                     <a href="#" class="inline-flex flex-wrap">
                         <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600 dark:text-gray-300">
