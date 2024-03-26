@@ -10,7 +10,7 @@
 
             gtag('config', 'G-T9B97GRH8P');
         </script>
-        <title>Project</title>
+        <title>Kognize</title>
         <meta charset="UTF-8" />
         <meta name="description" content="Information about page" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
