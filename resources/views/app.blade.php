@@ -12,13 +12,13 @@
         </script>
         <title>Kognize</title>
         <meta charset="UTF-8" />
-        <meta name="description" content="Information about page" />
+        <meta name="description" content="Illuminate Your Insights, Empower Your Growth with Kognize" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         @vite('resources/css/app.css')
         @livewireStyles
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
-    <body class="h-full">
+    <body class="h-screen lg:overflow-hidden">
         <div class="h-full" x-data="{ darkMode: false }" :class="{ 'dark': darkMode }">
             <header class="mx-auto max-w-7xl top-0 left-0 px-4 py-4 z-10">
                 <div class="flex items-center justify-between py-4">

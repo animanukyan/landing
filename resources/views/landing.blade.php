@@ -1,6 +1,6 @@
 @extends('app') @section('content')
     <section class="relative isolate overflow-hidden">
-        <div class="mx-auto max-w-7xl px-6 pb-20 pt-10 lg:flex lg:px-8 lg:pt-40">
+        <div class="mx-auto max-w-7xl px-6 pb-20 lg:pt-10 lg:flex lg:px-8 xl:pt-20">
             <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
                 <div class="mt-24 sm:mt-32 lg:mt-16">
                     <a href="#" class="inline-flex flex-wrap">
