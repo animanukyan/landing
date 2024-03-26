@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html class="h-full">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9B97GRH8P"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-T9B97GRH8P');
+        </script>
         <title>Project</title>
         <meta charset="UTF-8" />
         <meta name="description" content="Information about page" />
