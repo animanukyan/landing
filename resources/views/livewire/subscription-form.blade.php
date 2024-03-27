@@ -1,4 +1,4 @@
-<div>
+<div class="relative z-10">
     @if(! $thankYou)
         @if(! $subscription)
         <livewire:email :subscription="$subscription" x-transition/>
