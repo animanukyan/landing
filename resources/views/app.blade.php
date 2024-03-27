@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="h-full">
     <head>
+        <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9B97GRH8P"></script>
         <script>
@@ -19,11 +20,11 @@
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
     <body class="h-screen lg:overflow-hidden">
-        <div class="h-full" x-data="{ darkMode: false }" :class="{ 'dark': darkMode }">
-            <header class="mx-auto max-w-7xl top-0 left-0 px-4 py-4 z-10">
-                <div class="flex items-center justify-between py-4">
+        <div class="h-screen flex flex-col justify-center " x-data="{ darkMode: false }" :class="{ 'dark': darkMode }">
+            <header class="fixed w-full top-0 left-0 px-4 py-4 bg-white z-10">
+                <div class="max-w-7xl mx-auto flex items-center justify-between py-4">
                     <a href="#" class="text-3xl font-bold text-gray-900 dark:text-gray-200 pl-4">
-                        Kognize
+                        <img src="./images/kognize.svg" alt="logo">
                     </a>
                 </div>
             </header>
