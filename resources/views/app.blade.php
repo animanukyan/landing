@@ -21,14 +21,14 @@
     </head>
     <body class="h-screen lg:overflow-hidden">
         <div class="h-screen flex flex-col justify-center " x-data="{ darkMode: false }" :class="{ 'dark': darkMode }">
-            <header class="fixed w-full top-0 left-0 px-4 py-4 bg-white z-50">
+            <header class="fixed w-full top-0 left-0 px-4 bg-white z-50">
                 <div class="max-w-7xl mx-auto flex items-center justify-between py-4">
                     <a href="#" class="text-3xl font-bold text-gray-900 dark:text-gray-200 pl-4">
                         <img src="./images/kognize.svg" alt="logo">
                     </a>
                 </div>
             </header>
-            <main class="pt-60 pb-8 md:pt-72 lg:py-0 relative z-10">
+            <main class="pt-60 pb-8 md:pt-72 lg:py-px relative z-10">
                 @yield('content')
             </main>
         </div>

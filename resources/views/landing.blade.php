@@ -6,7 +6,7 @@
                 <div class="absolute h-8 w-8 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-2xl animate-pulse -top-4 sm:top-12 lg:top-1/2 left-10"></div>
                 <div class="absolute h-8 w-8 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-xl animate-pulse -top-4 sm:top-12 lg:top-1/2 left-10"></div>
             </div>
-            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8 relative">
+            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-6 relative">
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="absolute h-10 w-10 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-2xl animate-pulse right-0 top-12 lg:top-16"></div>
                     <div class="absolute h-10 w-10 lg:h-14 lg:w-14 bg-emerald-500 rounded-full filter blur-xl animate-pulse right-0 top-12 lg:top-16"></div>
