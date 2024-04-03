@@ -6,7 +6,14 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+        spacing: {
+            '136': '35rem',
+        },
+        borderRadius: {
+            'large': '40%',
+        }
+    },
   },
   plugins: [],
   darkMode: 'class',
