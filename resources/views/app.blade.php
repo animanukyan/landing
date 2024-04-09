@@ -22,13 +22,13 @@
     <body class="h-screen">
         <div class="h-screen" x-data="{ darkMode: false }" :class="{ 'dark': darkMode }">
             <header class="fixed w-full top-0 left-0 px-4 bg-white z-50">
-                <div class="max-w-7xl mx-auto flex items-center justify-between py-4">
+                <div class="max-w-7xl mx-auto flex items-center justify-between py-8">
                     <a href="#" class="text-3xl font-bold text-gray-900 dark:text-gray-200 pl-4">
                         <img src="./images/kognize.svg" alt="logo">
                     </a>
                 </div>
             </header>
-            <main class="py-8 md:pt-12 lg:pt-16 relative z-10">
+            <main class="py-8 md:pt-12 lg:pt-28 relative z-10">
                 @yield('content')
             </main>
         </div>
