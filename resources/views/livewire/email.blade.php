@@ -1,5 +1,5 @@
 <div>
-    <form wire:submit="save" class="my-8 md:my-12 max-w-lg">
+    <form wire:submit="save" class="mt-8 max-w-lg">
         <div class="mt-1 flex flex-wrap sm:flex-nowrap">
             <input wire:model="email" type="text" id="email" name="email" placeholder="Email address" class="block w-full py-4 px-4 rounded sm:rounded-r-none border border-emerald-500 focus:border-emerald-500 focus-visible:outline-emerald-500 focus:ring-0 focus:ring-emerald-500 sm:text-lg" noValidate/>
 
